@@ -8,7 +8,7 @@
 ![alt](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/616301c0e08640e791a0ca886c0810ca~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp?)
 
 <details>
-<summary class="more">展开查看</summary>
+<summary class="more">查看代码</summary>
 
  ```vue
  <template>
@@ -64,7 +64,7 @@ import { Button,Row } from "zgy-ui";
 
 
 <details>
-<summary>展开查看</summary>
+<summary>查看代码</summary>
 
 ```vue
 <template>
@@ -94,7 +94,7 @@ import { Button,Row } from "zgy-ui";
 
 
 <details>
-<summary>展开查看</summary>
+<summary>查看代码</summary>
 
 ```vue
 <template>

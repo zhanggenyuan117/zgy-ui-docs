@@ -1,7 +1,7 @@
 <!--
  * @Author: zhang_gen_yuan
  * @Date: 2022-09-11 16:31:20
- * @LastEditTime: 2022-09-11 17:38:08
+ * @LastEditTime: 2022-09-11 18:56:35
  * @Descripttion: 
 -->
 # Loading 加载
@@ -10,7 +10,7 @@
 
 
 <details>
-<summary>展开查看</summary>
+<summary>查看代码</summary>
 
 ```vue
 <template>
