@@ -1,15 +1,22 @@
+/*
+ * @Author: zhang_gen_yuan
+ * @Date: 2022-09-09 23:24:05
+ * @LastEditTime: 2022-09-11 17:12:59
+ * @Descripttion:
+ */
 
+import { demoBlockPlugin } from "vitepress-theme-demoblock";
 
 export default {
   themeConfig: {
     siteTitle: false,
     logo: "/logo/zgy-ui.png",
-    title: 'zgy-ui',
+    title: "zgy-ui",
     markdown: {
       config: (md) => {
-        const { demoBlockPlugin } = require('vitepress-theme-demoblock')
         md.use(demoBlockPlugin)
-      }
+      },
+      lineNumbers: true,
     },
 
     nav: [
@@ -34,12 +41,7 @@ export default {
         },
         {
           text: "进阶",
-          items: [
-            // {
-            //   text: "xx",
-            //   link: "/xx",
-            // },
-          ],
+          items: [],
         },
       ],
       "/examples/": [
@@ -53,6 +55,14 @@ export default {
             {
               text: "Icon图标",
               link: "/examples/icon/",
+            },
+            {
+              text: "Message消息提示",
+              link: "/examples/message/",
+            },
+            {
+              text: "Message消息弹出框",
+              link: "/examples/messagebox/",
             },
           ],
         },
