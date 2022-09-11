@@ -1,7 +1,7 @@
 /*
  * @Author: zhang_gen_yuan
  * @Date: 2022-09-09 23:24:05
- * @LastEditTime: 2022-09-11 21:59:54
+ * @LastEditTime: 2022-09-11 22:20:40
  * @Descripttion:
  */
 
@@ -18,7 +18,6 @@ export default {
       },
       lineNumbers: true,
     },
-    base:'/docs/.vitepress/dist/',
     nav: [
       { text: "指南", link: "/guild/installation" },
       { text: "组件", link: "/examples/button/" },
