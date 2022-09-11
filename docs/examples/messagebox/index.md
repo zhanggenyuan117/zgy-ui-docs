@@ -1,7 +1,7 @@
 <!--
  * @Author: zhang_gen_yuan
  * @Date: 2022-09-11 16:31:20
- * @LastEditTime: 2022-09-11 18:57:10
+ * @LastEditTime: 2022-09-11 23:40:02
  * @Descripttion: 
 -->
 # MessageBox 消息弹出框
@@ -21,7 +21,7 @@
 <script lang="ts" setup>
 import { Button, MessageBox } from "zgy-ui";
 const click = () => {
-  Message({ message: "这是一条消息提示" });
+  MessageBox({ title:"警告",message: "删除该数据，是否继续？",confirmButtonText:"确认",cancelButtonText:"取消",showClose:true, cancel: () => {}, confirm: () => {} });
 };
 </script>
 ```

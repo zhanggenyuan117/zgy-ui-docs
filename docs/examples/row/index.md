@@ -1,12 +1,31 @@
 <!--
  * @Author: zhang_gen_yuan
  * @Date: 2022-09-11 19:01:57
- * @LastEditTime: 2022-09-11 23:35:26
+ * @LastEditTime: 2022-09-11 23:42:37
  * @Descripttion: 
 -->
 # Row
 
 ![alt](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-c8839397-1901-47d6-a4b0-c8723a5ba7c1/fd2eed2e-aa39-4a04-a5ab-3cfc51b46665.png)
+
+
+<details>
+<summary>查看代码</summary>
+
+```vue
+<template>
+  <div>
+    <Row :gutter="[10,20]"></Row>
+    <Row :gutter="[10,20]"></Row>
+  </div>
+</template>
+
+<script lang="ts" setup>
+import { Row } from "zgy-ui";
+</script>
+```
+
+</details>
 
 ## Attributes
 
