@@ -7,7 +7,7 @@ titleTemplate: 一个Vue3组件库
 hero:
   name: zgy-ui
   text: 一个Vue3组件库
-  tagline: 没啥特点仅供学习
+  tagline: good good study day day up
   image:
     src: /logo/zgy-ui.png
     alt: zgy-ui
@@ -25,7 +25,7 @@ features:
     details: 基于vite打包和TypeScript开发
   - icon: 📦
     title: 仅供学习使用
-    details: 倾向于Vue3组件库的学习，请勿用于实际生产项目
+    details: 正在开发中
   - icon: 🛠️
     title: 按需引入
     details: 直接支持按需引入无需配置任何插件。

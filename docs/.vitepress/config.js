@@ -1,7 +1,7 @@
 /*
  * @Author: zhang_gen_yuan
  * @Date: 2022-09-09 23:24:05
- * @LastEditTime: 2022-09-11 17:35:39
+ * @LastEditTime: 2022-09-11 19:02:38
  * @Descripttion:
  */
 
@@ -57,6 +57,19 @@ export default {
               link: "/examples/icon/",
             },
             {
+              text: "Row行布局",
+              link: "/examples/row/",
+            },
+            {
+              text: "Col列布局",
+              link: "/examples/col/",
+            },
+          ],
+        },
+        {
+          text: "反馈组件",
+          items:[
+            {
               text: "Message消息提示",
               link: "/examples/message/",
             },
@@ -68,8 +81,8 @@ export default {
               text: "Loading加载",
               link: "/examples/loading/",
             },
-          ],
-        },
+          ]
+        }
       ],
     },
   },
