@@ -1,7 +1,7 @@
 /*
  * @Author: zhang_gen_yuan
  * @Date: 2022-09-09 23:24:05
- * @LastEditTime: 2022-09-11 19:02:38
+ * @LastEditTime: 2022-09-11 21:15:06
  * @Descripttion:
  */
 
@@ -18,7 +18,7 @@ export default {
       },
       lineNumbers: true,
     },
-
+    base:'./',
     nav: [
       { text: "指南", link: "/guild/installation" },
       { text: "组件", link: "/examples/button/" },
