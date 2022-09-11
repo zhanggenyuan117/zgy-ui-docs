@@ -1,7 +1,7 @@
 /*
  * @Author: zhang_gen_yuan
  * @Date: 2022-09-09 23:24:05
- * @LastEditTime: 2022-09-11 17:12:59
+ * @LastEditTime: 2022-09-11 17:35:39
  * @Descripttion:
  */
 
@@ -63,6 +63,10 @@ export default {
             {
               text: "Message消息弹出框",
               link: "/examples/messagebox/",
+            },
+            {
+              text: "Loading加载",
+              link: "/examples/loading/",
             },
           ],
         },
