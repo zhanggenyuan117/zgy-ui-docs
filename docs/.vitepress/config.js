@@ -1,7 +1,7 @@
 /*
  * @Author: zhang_gen_yuan
  * @Date: 2022-09-09 23:24:05
- * @LastEditTime: 2022-09-11 22:20:40
+ * @LastEditTime: 2022-09-11 23:50:33
  * @Descripttion:
  */
 
@@ -64,6 +64,13 @@ export default {
               link: "/examples/col/",
             },
           ],
+        },
+        {
+          text:"数据展示",
+          items:[{
+            text:"Image 图片",
+            link:"/examples/image/"
+          }]
         },
         {
           text: "反馈组件",

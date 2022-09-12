@@ -1,7 +1,7 @@
 <!--
  * @Author: zhang_gen_yuan
  * @Date: 2022-09-11 19:02:06
- * @LastEditTime: 2022-09-11 23:46:51
+ * @LastEditTime: 2022-09-12 09:56:11
  * @Descripttion:
 -->
 
@@ -37,9 +37,6 @@ import { Row, Col } from "zgy-ui";
 
 ## Attributes
 
-| 参数    | 说明                                    | 可选值                                                                         | 类型            | 默认值       | 是否必填 |
-| ------- | --------------------------------------- | ------------------------------------------------------------------------------ | --------------- | ------------ | -------- |
-| justify | 弹性盒子主轴排列方式                    | 'space-around','space-between','space-evenly','flex-start','flex-end','center' | string          | 'flex-start' | 否       |
-| align   | 侧轴排列方式                            | 'flex-start','flex-end','center'                                               | string          | 'flex-start' | 否       |
-| gutter  | 行间距,column-gap 和 margin-bottom 结合 | -                                                                              | number,number[] | 0            | 否       |
-| wrap    | 是否换行                                | -                                                                              | boolean         | false        | 否       |
+| 参数| 说明 |可选值|类型|默认值| 是否必填|
+|-----| ----|-----|---|-------|----|
+| span| 宽度 | number<0-24> |number|- |是|
