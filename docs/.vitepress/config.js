@@ -1,7 +1,7 @@
 /*
  * @Author: zhang_gen_yuan
  * @Date: 2022-09-09 23:24:05
- * @LastEditTime: 2022-09-12 14:25:55
+ * @LastEditTime: 2022-09-12 22:42:05
  * @Descripttion:
  */
 
@@ -65,6 +65,13 @@ export default {
               link: "/examples/col/",
             },
           ],
+        },
+        {
+          text:"导航",
+          items:[{
+            text:"BackTop 回到顶部",
+            link:"/examples/backtop/"
+          }]
         },
         {
           text:"数据展示",
