@@ -1,7 +1,7 @@
 /*
  * @Author: zhang_gen_yuan
  * @Date: 2022-09-09 23:24:05
- * @LastEditTime: 2022-09-12 10:19:34
+ * @LastEditTime: 2022-09-12 10:23:57
  * @Descripttion:
  */
 
@@ -18,7 +18,7 @@ export default {
       },
       lineNumbers: true,
     },
-    base:'/zgy-ui-docs/',
+    base:'/docs/',
     nav: [
       { text: "指南", link: "/guild/installation" },
       { text: "组件", link: "/examples/button/" },
