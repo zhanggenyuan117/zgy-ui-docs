@@ -1,13 +1,15 @@
 <!--
  * @Author: zhang_gen_yuan
  * @Date: 2022-09-11 19:02:06
- * @LastEditTime: 2022-09-12 09:56:11
+ * @LastEditTime: 2022-09-12 10:32:38
  * @Descripttion:
 -->
 
 # Col
 
-![alt](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-c8839397-1901-47d6-a4b0-c8723a5ba7c1/8575d123-a647-49c4-a226-7d33ad757006.png)
+<!-- ![alt](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-c8839397-1901-47d6-a4b0-c8723a5ba7c1/8575d123-a647-49c4-a226-7d33ad757006.png) -->
+
+![alt](./../../public/component/col.png)
 
 <details>
 <summary>查看代码</summary>

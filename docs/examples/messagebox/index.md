@@ -1,12 +1,14 @@
 <!--
  * @Author: zhang_gen_yuan
  * @Date: 2022-09-11 16:31:20
- * @LastEditTime: 2022-09-11 23:40:02
+ * @LastEditTime: 2022-09-12 10:34:21
  * @Descripttion: 
 -->
 # MessageBox 消息弹出框
+<!-- 
+![alt](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-c8839397-1901-47d6-a4b0-c8723a5ba7c1/0b96ee64-b7ef-4ee2-866d-994083caca8d.png) -->
 
-![alt](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-c8839397-1901-47d6-a4b0-c8723a5ba7c1/0b96ee64-b7ef-4ee2-866d-994083caca8d.png)
+![alt](./../../public/component/messagebox.png)
 
 <details>
 <summary>查看代码</summary>

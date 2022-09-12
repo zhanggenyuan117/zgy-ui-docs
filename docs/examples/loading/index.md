@@ -1,12 +1,14 @@
 <!--
  * @Author: zhang_gen_yuan
  * @Date: 2022-09-11 16:31:20
- * @LastEditTime: 2022-09-11 18:56:35
+ * @LastEditTime: 2022-09-12 10:33:27
  * @Descripttion: 
 -->
 # Loading 加载
 
-![alt](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-c8839397-1901-47d6-a4b0-c8723a5ba7c1/b73a23ad-7569-4f3f-9642-0367ae1fb7f3.png)
+<!-- ![alt](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-c8839397-1901-47d6-a4b0-c8723a5ba7c1/b73a23ad-7569-4f3f-9642-0367ae1fb7f3.png) -->
+
+![alt](./../../public/component/loading.png)
 
 
 <details>
