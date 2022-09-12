@@ -1,7 +1,7 @@
 /*
  * @Author: zhang_gen_yuan
  * @Date: 2022-09-09 23:24:05
- * @LastEditTime: 2022-09-12 22:42:05
+ * @LastEditTime: 2022-09-12 22:49:54
  * @Descripttion:
  */
 
@@ -71,6 +71,9 @@ export default {
           items:[{
             text:"BackTop 回到顶部",
             link:"/examples/backtop/"
+          },{
+              text:"Breadcrumb 面包屑",
+              link:"/examples/breadcrumb/"
           }]
         },
         {
