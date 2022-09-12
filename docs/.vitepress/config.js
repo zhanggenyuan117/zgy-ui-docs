@@ -1,7 +1,7 @@
 /*
  * @Author: zhang_gen_yuan
  * @Date: 2022-09-09 23:24:05
- * @LastEditTime: 2022-09-12 10:31:01
+ * @LastEditTime: 2022-09-12 14:25:55
  * @Descripttion:
  */
 
@@ -9,7 +9,7 @@ import { demoBlockPlugin } from "vitepress-theme-demoblock";
 
 export default {
   themeConfig: {
-    siteTitle: false,
+    siteTitle: "zgy-ui",
     logo: "/logo/zgy-ui.png",
     title: "zgy-ui",
     markdown: {
