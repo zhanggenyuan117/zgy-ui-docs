@@ -98,6 +98,10 @@ export default {
               text: "Loading加载",
               link: "/examples/loading/",
             },
+            {
+              text: "Dialog 对话框",
+              link: "/examples/dialog/",
+            },
           ]
         }
       ],
