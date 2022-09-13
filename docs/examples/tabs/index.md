@@ -1,6 +1,6 @@
 # Tabs 标签页
 
-![alt](./../../public/component/tag.png)
+![alt](./../../public/component/tabs.png)
 
 <details>
 <summary>查看代码</summary>
@@ -8,45 +8,32 @@
 ```vue
 <template>
   <div>
-    <h3>基础用法</h3>
-    <Tag type="">标签</Tag>
-    <Tag type="primary">标签</Tag>
-    <Tag type="warning">标签</Tag>
-    <Tag type="danger">标签</Tag>
-    <Tag type="success">标签</Tag>
-    <Tag type="info">标签</Tag>
+    <h3>text</h3>
+    <Tabs v-model="tabValue" :tabList="tabList"></Tabs>
   </div>
   <div>
-    <h3>Size</h3>
-    <Tag type="primary" size="mini">标签</Tag>
-    <Tag type="" size="small">标签</Tag>
-    <Tag type="warning" size="midium">标签</Tag>
-  </div>
-  <div>
-    <h3>禁用</h3>
-    <Tag type="primary" size="mini" disabled>标签</Tag>
-    <Tag type="" size="small" disabled>标签</Tag>
-    <Tag type="warning" size="midium" disabled>标签</Tag>
-  </div>
-  <div>
-    <h3>镂空</h3>
-    <Tag type="primary" size="mini" plain>标签</Tag>
-    <Tag type="" size="small" plain>标签</Tag>
-    <Tag type="warning" size="midium" plain>标签</Tag>
-  </div>
-  <div>
-    <h3>可删除</h3>
-    <Tag type="primary" closable>标签</Tag>
-    <Tag type="" closable>标签</Tag>
-    <Tag type="warning" size="midium" closable>标签</Tag>
+    <h3>button</h3>
+    <Tabs v-model="tabValue" type="button" size="mini" :tabList="tabList"></Tabs>
+    <Tabs v-model="tabValue" type="button" size="small" :tabList="tabList"></Tabs>
+    <Tabs v-model="tabValue" type="button" size="midium" :tabList="tabList"></Tabs>
   </div>
 </template>
 
 <script lang="ts" setup>
-import { Tag } from "zgy-ui";
+import { Tabs } from "zgy-ui";
+import { ref } from "vue";
+let tabValue = ref<string>("1")
+let tabList = ref([
+  {
+    label: "1",
+    value: 1
+  },
+  {
+    label: "2",
+    value: 2
+  }
+])
 </script>
-
-<style></style>
 ```
 
 </details>
@@ -58,4 +45,11 @@ import { Tag } from "zgy-ui";
 | type| 类型 | 'text' , 'card' , 'button' |string | text |否|
 | modelValue| v-model | - | string | - |是|
 | tabList| - | - | LabelsProps[] | - |是|
-| size| 大小 | "small","mini" |  | small |是|
+| size| 大小 | "small","mini" |  | small |否|
+
+## LabelsProps
+
+| 参数| 说明 |可选值|类型|默认值| 是否必填|
+|-----| -------|-----|---|-------|----|
+| label| 标题 | - |string | "" |是|
+| value| 值 | - | string or number | "" |是|
