@@ -18,7 +18,7 @@ export default {
       },
       lineNumbers: true,
     },
-    base:'/',
+    base:'./',
     nav: [
       { text: "指南", link: "/guild/installation" },
       { text: "组件", link: "/examples/button/" },
@@ -74,7 +74,10 @@ export default {
           },{
               text:"Breadcrumb 面包屑",
               link:"/examples/breadcrumb/"
-          }]
+          },{
+            text:"Tabs 标签页",
+            link:"/examples/tabs/"
+        }]
         },
         {
           text:"数据展示",
