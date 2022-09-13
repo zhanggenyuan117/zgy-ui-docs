@@ -81,6 +81,9 @@ export default {
           items:[{
             text:"Image 图片",
             link:"/examples/image/"
+          },{
+            text:"Tag 标签",
+            link:"/examples/tag/"
           }]
         },
         {
