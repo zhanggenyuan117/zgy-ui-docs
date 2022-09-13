@@ -18,7 +18,7 @@ export default {
       },
       lineNumbers: true,
     },
-    base:'./',
+    base:'/zgy-ui-docs/docs/.vitepress/dist/',
     nav: [
       { text: "指南", link: "/guild/installation" },
       { text: "组件", link: "/examples/button/" },
