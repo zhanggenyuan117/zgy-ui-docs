@@ -8,7 +8,7 @@
 import { demoBlockPlugin } from "vitepress-theme-demoblock";
 
 export default {
-  base:'/zgy-ui-docs/',
+  base:'/',
   themeConfig: {
     siteTitle: "zgy-ui",
     logo: "/logo/zgy-ui.png",

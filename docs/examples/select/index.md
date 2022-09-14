@@ -1,9 +1,40 @@
 # Select 选择器
 
 
+![alt](./../../public/component/select.png)
 
+<details>
+<summary>查看代码</summary>
 
+```vue
+<template>
+  <Select :options="options" v-model="selectvalue"></Select>
+  <Select :options="options" v-model="selectvalue2" clearable></Select>
+  <Select :options="options" v-model="selectvalue" clearable :width="500" :height="50"></Select>
+</template>
 
+<script lang="ts" setup>
+import { Select } from "zgy-ui";
+import { ref } from "vue";
+
+const selectvalue = ref("1")
+const selectvalue2 = ref("2")
+
+const options = ref([
+  {
+    label:"天爱",
+    value:1
+  },
+  {
+    label:"娜扎",
+    value:2
+  },
+])
+
+</script>
+```
+
+</details>
 
 
 ## Attributes
