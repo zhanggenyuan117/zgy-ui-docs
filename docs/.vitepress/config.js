@@ -87,6 +87,9 @@ export default {
           },{
             text:"Tag 标签",
             link:"/examples/tag/"
+          },{
+            text:"Paging 分页",
+            link:"/examples/paging/"
           }]
         },
         {
