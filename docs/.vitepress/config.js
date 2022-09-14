@@ -18,7 +18,7 @@ export default {
       },
       lineNumbers: true,
     },
-    base:'/zgy-ui-docs/',
+    base: '/zgy-ui-docs/',
     nav: [
       { text: "指南", link: "/guild/installation" },
       { text: "组件", link: "/examples/button/" },
@@ -67,34 +67,41 @@ export default {
           ],
         },
         {
-          text:"导航",
-          items:[{
-            text:"BackTop 回到顶部",
-            link:"/examples/backtop/"
-          },{
-              text:"Breadcrumb 面包屑",
-              link:"/examples/breadcrumb/"
-          },{
-            text:"Tabs 标签页",
-            link:"/examples/tabs/"
-        }]
+          text: "表单",
+          items: [{
+            text: "Select 选择器",
+            link: "/examples/select/"
+          }]
         },
         {
-          text:"数据展示",
-          items:[{
-            text:"Image 图片",
-            link:"/examples/image/"
-          },{
-            text:"Tag 标签",
-            link:"/examples/tag/"
-          },{
-            text:"Paging 分页",
-            link:"/examples/paging/"
+          text: "导航",
+          items: [{
+            text: "BackTop 回到顶部",
+            link: "/examples/backtop/"
+          }, {
+            text: "Breadcrumb 面包屑",
+            link: "/examples/breadcrumb/"
+          }, {
+            text: "Tabs 标签页",
+            link: "/examples/tabs/"
+          }]
+        },
+        {
+          text: "数据展示",
+          items: [{
+            text: "Image 图片",
+            link: "/examples/image/"
+          }, {
+            text: "Tag 标签",
+            link: "/examples/tag/"
+          }, {
+            text: "Paging 分页",
+            link: "/examples/paging/"
           }]
         },
         {
           text: "反馈组件",
-          items:[
+          items: [
             {
               text: "Message消息提示",
               link: "/examples/message/",
