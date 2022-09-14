@@ -1,13 +1,14 @@
 /*
  * @Author: zhang_gen_yuan
  * @Date: 2022-09-09 23:24:05
- * @LastEditTime: 2022-09-12 22:49:54
+ * @LastEditTime: 2022-09-13 22:36:43
  * @Descripttion:
  */
 
 import { demoBlockPlugin } from "vitepress-theme-demoblock";
 
 export default {
+  base:'/zgy-ui-docs/',
   themeConfig: {
     siteTitle: "zgy-ui",
     logo: "/logo/zgy-ui.png",
@@ -18,7 +19,6 @@ export default {
       },
       lineNumbers: true,
     },
-    base: '/zgy-ui-docs/',
     nav: [
       { text: "指南", link: "/guild/installation" },
       { text: "组件", link: "/examples/button/" },
