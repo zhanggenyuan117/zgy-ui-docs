@@ -42,7 +42,7 @@ const options = ref([
 | 参数| 说明 |可选值|类型|默认值| 是否必填|
 |-----| -------|-----|---|-------|----|
 | placeholder| 占位符 | - |string | "" |否|
-| modelValue| v-model | - |string | "" |是|
+| modelValue / v-model| 绑定值 | - |string | "" |是|
 | width| 宽度 | - |number | 222 |否|
 | height| 高度 | - |number | 32 |否|
 | clearable| 显示关闭 | - |boolean | false |否|

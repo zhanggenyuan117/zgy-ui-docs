@@ -43,7 +43,7 @@ let tabList = ref([
 | 参数| 说明 |可选值|类型|默认值| 是否必填|
 |-----| -------|-----|---|-------|----|
 | type| 类型 | 'text' , 'card' , 'button' |string | text |否|
-| modelValue| v-model | - | string | - |是|
+| modelValue / v-model| 绑定值 | - | string | - |是|
 | tabList| - | - | LabelsProps[] | - |是|
 | size| 大小 | "small","mini" |  | small |否|
 

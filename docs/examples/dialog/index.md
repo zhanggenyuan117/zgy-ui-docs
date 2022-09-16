@@ -34,7 +34,7 @@ const beforeClose = (done: () => void)=>{
 
 | 参数| 说明 |可选值|类型|默认值| 是否必填|
 |-----| ----|-----|---|-------|----|
-| modelValue| v-model 显示与隐藏 |- |boolean | false |是|
+| modelValue / v-model| 绑定值 |- |boolean | false |是|
 | title| 弹出框的标题 |- |string | '' |否|
 | width| 弹出框的宽度 | % |string | '50%' |否|
 | radius| 弹出框的边框圆角 | - |boolean | true |否|

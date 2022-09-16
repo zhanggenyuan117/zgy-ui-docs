@@ -8,7 +8,8 @@
 import { demoBlockPlugin } from "vitepress-theme-demoblock";
 
 export default {
-  base:'/zgy-ui-docs/',
+  // zgy-ui-docs
+  base:'/',
   themeConfig: {
     siteTitle: "zgy-ui",
     logo: "/logo/zgy-ui.png",
@@ -71,6 +72,9 @@ export default {
           items: [{
             text: "Select 选择器",
             link: "/examples/select/"
+          },{
+            text: "Input 输入框",
+            link: "/examples/input/"
           }]
         },
         {
