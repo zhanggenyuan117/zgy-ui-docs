@@ -14,24 +14,17 @@
 
 ```vue
 <template>
-  <Image
-    :previewList="images"
-    v-for="(item, index) in images"
-    :key="index"
-    :index="index"
-    :src="item"
-    mode="widthFix"
-    style="width:200px;"
-  />
+  <Image v-for="(item,index) in list" :key="item" :src="item" :preview-list="list" :index="index"/>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import { Image } from "zgy-ui";
 import { ref } from "vue";
-const images = ref([
-  'https://img0.baidu.com/it/u=734685046,1518364176&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=889',
-  'https://img2.baidu.com/it/u=581448092,3902451155&fm=253&fmt=auto&app=138&f=JPEG?w=400&h=611'
-]);
+
+const list = ref([
+  'https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/616301c0e08640e791a0ca886c0810ca~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp?','https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f2f46ca30881488a984fc11853652169~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp?'
+])
+
 </script>
 ```
 
