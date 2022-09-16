@@ -1,5 +1,48 @@
 # Input 输入框
 
+![alt](./../../public/component/input.png)
+
+<details>
+<summary>查看代码</summary>
+
+```vue
+<template>
+
+  <h3>placeholder</h3>
+  <Input v-model="val" placeholder="请输入..." />
+
+  <h3>type = "password"</h3>
+  <Input v-model="val" type="password" placeholder="请输入..."/>
+
+  <h3>label</h3>
+  <Input v-model="val" label="Label" placeholder="请输入..."/>
+
+  <h3>clearable</h3>
+  <Input v-model="val" clearable placeholder="请输入..."/>
+
+  <h3>disabled</h3>
+  <Input v-model="val" disabled clearable placeholder="请输入..."/>
+
+  <h3>maxlength</h3>
+  <Input v-model="val" maxlength="5" clearable placeholder="请输入..."/>
+
+  <h3>readonly</h3>
+  <Input v-model="val" readonly placeholder="请输入..."/>
+  
+</template>
+
+<script lang="ts" setup>
+import { Input,Button } from "zgy-ui";
+import { ref } from "vue";
+
+let val = ref<string>("123")
+
+</script>
+```
+
+</details>
+
+
 ## Attributes
 
 | 参数| 说明 |可选值|类型|默认值| 是否必填|
