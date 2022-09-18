@@ -1,7 +1,7 @@
 /*
  * @Author: zhang_gen_yuan
  * @Date: 2022-09-09 23:24:05
- * @LastEditTime: 2022-09-13 22:36:43
+ * @LastEditTime: 2022-09-18 17:40:42
  * @Descripttion:
  */
 
@@ -74,6 +74,9 @@ export default {
           },{
             text: "Input 输入框",
             link: "/examples/input/"
+          },{
+            text: "DatePicker 日期选择器",
+            link: "/examples/date-picker/"
           }]
         },
         {
