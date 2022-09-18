@@ -1,7 +1,7 @@
 /*
  * @Author: zhang_gen_yuan
  * @Date: 2022-09-09 23:24:05
- * @LastEditTime: 2022-09-18 17:40:42
+ * @LastEditTime: 2022-09-18 18:07:43
  * @Descripttion:
  */
 
@@ -23,7 +23,7 @@ export default {
       { text: "指南", link: "/guild/installation" },
       { text: "组件", link: "/examples/button/" },
     ],
-    socialLinks: [{ icon: "gitee", link: "https://gitee.com/zhanggenyuan/zgy-ui.git" }],
+    socialLinks: [{ icon: "github", link: "https://gitee.com/zhanggenyuan/zgy-ui.git" }],
     sidebar: {
       "/guild/": [
         {
