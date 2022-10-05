@@ -1,7 +1,7 @@
 /*
  * @Author: zhang_gen_yuan
  * @Date: 2022-09-09 23:24:05
- * @LastEditTime: 2022-09-18 18:07:43
+ * @LastEditTime: 2022-10-05 17:50:43
  * @Descripttion:
  */
 
@@ -77,6 +77,9 @@ export default {
           },{
             text: "DatePicker 日期选择器",
             link: "/examples/date-picker/"
+          },{
+            text: "Form 表单",
+            link: "/examples/form/"
           }]
         },
         {
@@ -103,6 +106,9 @@ export default {
           }, {
             text: "Paging 分页",
             link: "/examples/paging/"
+          },{
+            text: "Table 表格",
+            link: "/examples/table/"
           }]
         },
         {
