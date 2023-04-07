@@ -7,7 +7,7 @@
 # Image 图片
 
 <!-- ![alt](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-c8839397-1901-47d6-a4b0-c8723a5ba7c1/bbbe4769-b22f-48c5-b535-66f671e4d514.png) -->
-![alt](./../../public//component/image.png)
+![alt](./../../public/component/image.png)
 
 <details>
 <summary>查看代码</summary>
@@ -31,13 +31,6 @@ const list = ref([
 </details>
 
 ## Attributes
-   <!-- src: string;
-    fit?: string;
-    alt?: string;
-    loading?: string;
-    previewList?: Array<string>;
-    index?: number;
-    closeEscape:boolean -->
 | 参数| 说明 |可选值|类型|默认值| 是否必填 |
 |-----| ----|-----|---|-------|----|
 | src| 图片地址 | - |string|- | 是 |
