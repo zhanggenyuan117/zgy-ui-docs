@@ -1,10 +1,10 @@
 <!--
  * @Author: zhang_gen_yuan
  * @Date: 2022-09-12 22:42:37
- * @LastEditTime: 2023-08-16 11:24:44
+ * @LastEditTime: 2023-08-16 14:01:38
  * @Descripttion: 
 -->
-# BackTop 回到顶部
+# Avatar 头像
 
 ![alt](./../../public/component/avatar.png)
 
@@ -29,5 +29,5 @@ import { Avatar } from "zgy-ui"
 |-----| ----|-----|---|-------|----|
 | src| 图片路径 |- |string |  | 是 |
 | size| 图片大小 [ width & height ] |- |string | 50 | 否 |
-| shape| 图片形状 |- |string circle,square | circle | 否 |
+| shape| 图片形状 | circle,square |string | circle | 否 |
 | fit| content-fit属性 |- |string | cover | 否 |

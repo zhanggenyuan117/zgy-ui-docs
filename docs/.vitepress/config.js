@@ -1,21 +1,21 @@
 /*
  * @Author: zhang_gen_yuan
  * @Date: 2022-09-09 23:24:05
- * @LastEditTime: 2022-10-05 17:50:43
+ * @LastEditTime: 2023-08-16 15:42:00
  * @Descripttion:
  */
 
 import { demoBlockPlugin } from "vitepress-theme-demoblock";
 
 export default {
-  base:'/zgy-ui-docs/',
+  base: "/zgy-ui-docs/",
   themeConfig: {
     siteTitle: "zgy-ui",
     logo: "/logo/zgy-ui.png",
     title: "zgy-ui",
     markdown: {
       config: (md) => {
-        md.use(demoBlockPlugin)
+        md.use(demoBlockPlugin);
       },
       lineNumbers: true,
     },
@@ -23,7 +23,9 @@ export default {
       { text: "指南", link: "/guild/installation" },
       { text: "组件", link: "/examples/button/" },
     ],
-    socialLinks: [{ icon: "github", link: "https://gitee.com/zhanggenyuan/zgy-ui.git" }],
+    socialLinks: [
+      { icon: "github", link: "https://gitee.com/zhanggenyuan/zgy-ui.git" },
+    ],
     sidebar: {
       "/guild/": [
         {
@@ -68,53 +70,70 @@ export default {
         },
         {
           text: "表单",
-          items: [{
-            text: "Select 选择器",
-            link: "/examples/select/"
-          },{
-            text: "Input 输入框",
-            link: "/examples/input/"
-          },{
-            text: "DatePicker 日期选择器",
-            link: "/examples/date-picker/"
-          },{
-            text: "Form 表单",
-            link: "/examples/form/"
-          }]
+          items: [
+            {
+              text: "Select 选择器",
+              link: "/examples/select/",
+            },
+            {
+              text: "Input 输入框",
+              link: "/examples/input/",
+            },
+            {
+              text: "DatePicker 日期选择器",
+              link: "/examples/date-picker/",
+            },
+            {
+              text: "Form 表单",
+              link: "/examples/form/",
+            },
+          ],
         },
         {
           text: "导航",
-          items: [{
-            text: "BackTop 回到顶部",
-            link: "/examples/backtop/"
-          }, {
-            text: "Breadcrumb 面包屑",
-            link: "/examples/breadcrumb/"
-          }, {
-            text: "Tabs 标签页",
-            link: "/examples/tabs/"
-          }]
+          items: [
+            {
+              text: "BackTop 回到顶部",
+              link: "/examples/backtop/",
+            },
+            {
+              text: "Breadcrumb 面包屑",
+              link: "/examples/breadcrumb/",
+            },
+            {
+              text: "Tabs 标签页",
+              link: "/examples/tabs/",
+            },
+          ],
         },
         {
           text: "数据展示",
           items: [
             {
               text: "Avatar 头像",
-              link: "/examples/avatar/"
-            },  
-          {
-            text: "Image 图片",
-            link: "/examples/image/"
-          }, {
-            text: "Tag 标签",
-            link: "/examples/tag/"
-          }, {
-            text: "Paging 分页",
-            link: "/examples/paging/"
-          },{
-            text: "Table 表格",
-            link: "/examples/table/"
-          }]
+              link: "/examples/avatar/",
+            },
+            {
+              text: "Badge 角标",
+              link: "/examples/badge/",
+            },
+            {
+              text: "Image 图片",
+              link: "/examples/image/",
+            },
+            {
+              text: "Tag 标签",
+              link: "/examples/tag/",
+            },
+            {
+              text: "Paging 分页",
+              link: "/examples/paging/",
+            },
+            {
+              text: "Table 表格",
+              link: "/examples/table/",
+            },
+          ],
         },
         {
           text: "反馈组件",
@@ -135,8 +154,8 @@ export default {
               text: "Dialog 对话框",
               link: "/examples/dialog/",
             },
-          ]
-        }
+          ],
+        },
       ],
     },
   },
