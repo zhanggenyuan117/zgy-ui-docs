@@ -97,7 +97,12 @@ export default {
         },
         {
           text: "数据展示",
-          items: [{
+          items: [
+            {
+              text: "Avatar 头像",
+              link: "/examples/avatar/"
+            },  
+          {
             text: "Image 图片",
             link: "/examples/image/"
           }, {

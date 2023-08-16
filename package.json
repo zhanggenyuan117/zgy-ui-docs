@@ -8,7 +8,7 @@
     "build": "vitepress build docs",
     "serve": "vitepress serve docs",
     "register:components": "vitepress-rc",
-    "deploy":"deploy.bat"
+    "deploy": "deploy.bat"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +20,6 @@
   },
   "dependencies": {
     "vue": "3.2.39",
-    "zgy-ui": "1.0.33"
+    "zgy-ui": "^1.0.66"
   }
 }
