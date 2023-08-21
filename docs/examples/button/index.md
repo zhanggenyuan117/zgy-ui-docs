@@ -5,7 +5,7 @@
 
 ## 基础用法
 
-![alt](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/616301c0e08640e791a0ca886c0810ca~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp?)
+![alt](./../../public/component/button.png)
 
 <details>
 <summary class="more">查看代码</summary>
@@ -60,7 +60,7 @@ import { Button,Row } from "zgy-ui";
 </details>
 
 ## 禁用状态
-![alt](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f2f46ca30881488a984fc11853652169~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp?)
+![alt](./../../public/component/button-disabled.png)
 
 
 <details>
@@ -90,7 +90,7 @@ import { Button,Row } from "zgy-ui";
 
 ## 文字状态
 
-![alt](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bec23a8c8d0a4c1ca9b3dbe47a1ffa38~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp?)
+![alt](./../../public/component/button-text.png)
 
 
 <details>
