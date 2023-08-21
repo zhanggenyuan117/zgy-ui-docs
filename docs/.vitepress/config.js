@@ -1,7 +1,7 @@
 /*
  * @Author: zhang_gen_yuan
  * @Date: 2022-09-09 23:24:05
- * @LastEditTime: 2023-08-16 15:42:00
+ * @LastEditTime: 2023-08-21 14:27:29
  * @Descripttion:
  */
 
@@ -116,6 +116,10 @@ export default {
             {
               text: "Badge 角标",
               link: "/examples/badge/",
+            },
+            {
+              text: "Empty 空状态",
+              link: "/examples/empty/",
             },
             {
               text: "Image 图片",
