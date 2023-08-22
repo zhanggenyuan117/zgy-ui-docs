@@ -1,7 +1,7 @@
 /*
  * @Author: zhang_gen_yuan
  * @Date: 2022-09-09 23:24:05
- * @LastEditTime: 2023-08-21 14:27:29
+ * @LastEditTime: 2023-08-22 16:55:25
  * @Descripttion:
  */
 
@@ -120,6 +120,10 @@ export default {
             {
               text: "Empty 空状态",
               link: "/examples/empty/",
+            },
+            {
+              text: "Descriptions 描述列表",
+              link: "/examples/descriptions/",
             },
             {
               text: "Image 图片",
