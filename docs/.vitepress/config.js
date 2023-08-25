@@ -1,7 +1,7 @@
 /*
  * @Author: zhang_gen_yuan
  * @Date: 2022-09-09 23:24:05
- * @LastEditTime: 2023-08-22 16:55:25
+ * @LastEditTime: 2023-08-25 08:47:21
  * @Descripttion:
  */
 
@@ -74,6 +74,10 @@ export default {
             {
               text: "Select 选择器",
               link: "/examples/select/",
+            },
+            {
+              text: "Radio 单选框",
+              link: "/examples/radio/",
             },
             {
               text: "Input 输入框",
