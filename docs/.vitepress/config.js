@@ -1,7 +1,7 @@
 /*
  * @Author: zhang_gen_yuan
  * @Date: 2022-09-09 23:24:05
- * @LastEditTime: 2023-08-25 08:47:21
+ * @LastEditTime: 2023-08-25 09:05:22
  * @Descripttion:
  */
 
@@ -9,6 +9,9 @@ import { demoBlockPlugin } from "vitepress-theme-demoblock";
 
 export default {
   base: "/zgy-ui-docs/",
+  head: [
+    ['link', { rel: 'icon', href: '/logo/huashui.png' }]
+  ],
   themeConfig: {
     siteTitle: "zgy-ui",
     logo: "/logo/zgy-ui.png",
