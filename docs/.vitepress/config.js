@@ -1,7 +1,7 @@
 /*
  * @Author: zhang_gen_yuan
  * @Date: 2022-09-09 23:24:05
- * @LastEditTime: 2023-08-25 09:05:22
+ * @LastEditTime: 2023-08-30 15:42:27
  * @Descripttion:
  */
 
@@ -81,6 +81,10 @@ export default {
             {
               text: "Radio 单选框",
               link: "/examples/radio/",
+            },
+            {
+              text: "Checkbox 复选框",
+              link: "/examples/checkbox/",
             },
             {
               text: "Input 输入框",
