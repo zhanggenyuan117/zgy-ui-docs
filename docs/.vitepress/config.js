@@ -8,7 +8,7 @@
 import { demoBlockPlugin } from "vitepress-theme-demoblock";
 
 export default {
-  base: "/zgy-ui-docs/",
+  base: "/docs/",
   head: [
     ['link', { rel: 'icon', href: '/logo/huashui.png' }]
   ],
@@ -27,7 +27,7 @@ export default {
       { text: "组件", link: "/examples/button/" },
     ],
     socialLinks: [
-      { icon: "github", link: "https://gitee.com/zhanggenyuan/zgy-ui.git" },
+      { icon: "github", link: "https://github.com/zhanggenyuan117/zgy-ui-docs" },
     ],
     sidebar: {
       "/guild/": [
